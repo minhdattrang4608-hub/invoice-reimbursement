@@ -1,0 +1,6 @@
+interface:
+  display_name: "发票报销助手"
+  short_description: "自动配置邮箱、归集发票并按照公司模板生成完整报销材料"
+  default_prompt: "使用 $invoice-reimbursement 开始首次配置：先让我选择邮箱类型，选定后再显示该邮箱的专属绑定图并测试连接，然后设置扫描时间和报销规则。"
+policy:
+  allow_implicit_invocation: true
